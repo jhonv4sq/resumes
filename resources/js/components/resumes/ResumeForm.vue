@@ -1,11 +1,18 @@
 <template>
-  <div>Resume components</div>
+  <div>
+
+  </div>
 </template>
 
 <script>
+import { Btabs, Btab } from 'bootstrap-vue';
+
 export default {
-    mounted(){
-        console.log('resume components')
-    }
-}
+  name: 'ResumeForm',
+
+  components: {
+    Btabs,
+    Btab,
+  },
+};
 </script>
