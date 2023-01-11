@@ -14,7 +14,7 @@ class ResumeController extends Controller
      */
     public function index()
     {
-        //
+        return view("resumes.index");
     }
 
     /**
@@ -24,7 +24,7 @@ class ResumeController extends Controller
      */
     public function create()
     {
-        //
+        return view("resumes.create");
     }
 
     /**
@@ -46,7 +46,7 @@ class ResumeController extends Controller
      */
     public function show(Resume $resume)
     {
-        //
+        return view("resumes.show");
     }
 
     /**
@@ -57,7 +57,7 @@ class ResumeController extends Controller
      */
     public function edit(Resume $resume)
     {
-        //
+        return view("resumes.edit");
     }
 
     /**
