@@ -10,5 +10,5 @@ npm install vue-form-generator
 
 Instalamos [Bootstrap-vue](https://bootstrap-vue.org/)
 ```bash
-npm install vue bootstrap bootstrap-vue
+npm install bootstrap-vue
 ```
